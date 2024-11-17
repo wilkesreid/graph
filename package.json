@@ -1,0 +1,16 @@
+{
+  "name": "graph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bun build main.mjs --outdir ./dist",
+    "serve": "python3 -m http.server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "uuid": "^11.0.3"
+  }
+}
